@@ -1,1 +1,1 @@
-# KitKatProject
+# PrimeNumberProject
