@@ -1,3 +1,0 @@
-interface Calculation {
-    fun cal()
-}
