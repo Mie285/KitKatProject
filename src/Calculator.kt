@@ -1,5 +1,5 @@
 fun main() {
-    val numbers = (1..1000).map(::ShowingValue)
-    val primeNumbers = numbers.filter(ShowingValue::isPrimeNumbers)
+    val numbers = (1..1000).map(::MaybePrimeInt)
+    val primeNumbers = numbers.filter(MaybePrimeInt::isPrimeNumber)
     println(primeNumbers)
 }
