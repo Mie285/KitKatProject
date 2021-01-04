@@ -1,3 +1,3 @@
-interface Outcome{
+interface Outcome {
     fun showOutcome()
 }
