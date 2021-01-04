@@ -1,11 +1,14 @@
-class CheckingPrimeNumber(num: Int) : PrimeNumberSet(num), Checking, Numbers{
+class CheckingPrimeNumber(num: Int) : Checking, Numbers{
 
     override fun number(){
         println("$num : is prime number")
     }
 
-    var primeNumbers : Boolean = true
-    override fun isprimeNumbers(): Boolean {
-        return primeNumbers
+    var primeNumbers : Boolean = false
+
+    override fun isPrimeNumbers(): Boolean {
+        return super.isPrime
+        Numbers()
     }
+
 }

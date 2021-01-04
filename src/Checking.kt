@@ -1,3 +1,5 @@
 interface Checking {
-    fun isprimeNumbers() : Boolean
+    abstract val num: String
+
+    fun isPrimeNumbers() : Boolean
 }
