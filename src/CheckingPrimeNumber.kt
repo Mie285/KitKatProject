@@ -4,7 +4,7 @@ class CheckingPrimeNumber(num: Int) : PrimeNumberSet(num), Checking, Numbers{
         println("$num : is prime number")
     }
 
-    var primeNumbers : Boolean = false
+    var primeNumbers : Boolean = true
     override fun isprimeNumbers(): Boolean {
         return primeNumbers
     }
