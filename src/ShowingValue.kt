@@ -1,4 +1,4 @@
-class ShowingValue(num: Int) : PrimeNumberSet(num), PrimeNumbers, Numbers {
+class ShowingValue(num: Int) : PrimeNumberSet(num), PrimeNumbers, Outcome {
 
     override fun showOutcome() {
         println("$num : is prime number")
