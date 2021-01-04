@@ -1,3 +1,3 @@
 open class PrimeNumberSet(
-        var num: Int
+    var num: Int
 )
