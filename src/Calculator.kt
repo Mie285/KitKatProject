@@ -1,6 +1,6 @@
 fun main() {
 
-    val set_of_numbers = listOf(
+    val SetOfNumbers = listOf(
             PrimeNumberSet(2), PrimeNumberSet(3), PrimeNumberSet(5),
             PrimeNumberSet(7), PrimeNumberSet(11), PrimeNumberSet(13),
             PrimeNumberSet(17), PrimeNumberSet(19), PrimeNumberSet(23),
@@ -11,8 +11,8 @@ fun main() {
             PrimeNumberSet(97)
     )
     
-    val prime_number = set_of_numbers.filter { it.isPrimeNumbers() }
-    for (set in prime_number){
+    val PrimeNumberSet = SetOfNumbers.filter { it.isPrimeNumbers() }
+    for (set in PrimeNumberSet){
         set.number()
     }
 }
