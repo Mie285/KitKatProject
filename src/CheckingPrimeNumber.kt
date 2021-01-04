@@ -7,8 +7,7 @@ class CheckingPrimeNumber(num: Int) : Checking, Numbers{
     var primeNumbers : Boolean = false
 
     override fun isPrimeNumbers(): Boolean {
-        return super.isPrime
-        Numbers()
+        return primeNumbers
     }
 
 }
