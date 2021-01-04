@@ -1,3 +1,3 @@
 interface Numbers{
-    fun number()
+    fun showOutcome()
 }
