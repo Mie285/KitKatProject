@@ -11,8 +11,19 @@ fun main() {
         ShowingValue(97)
     )
 
+    val inputNumbers = listOf<Int>(2, 4, 5, 6);
+    val num2 = inputNumbers.filter { isPrimeNumber(it) }
+    println(num2);
+
     val num = setOfNumbers.filter { it.isPrimeNumbers() }
     for (set in num) {
         set.showOutcome()
     }
+
+
+}
+
+fun isPrimeNumber(input:Int):Boolean{
+
+    return false;
 }
