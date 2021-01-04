@@ -1,4 +1,4 @@
-class CheckingPrimeNumber(num: Int) : PrimeNumberSet(num), PrimeNumbers, Numbers{
+class CheckingPrimeNumber(num: Int) : PrimeNumberSet(num), PrimeNumbers, Outcome{
 
     override fun showOutcome(){
         println("$num : is prime number")
