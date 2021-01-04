@@ -1,0 +1,3 @@
+interface Outcome{
+    fun showOutcome()
+}
