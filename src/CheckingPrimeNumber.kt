@@ -6,7 +6,7 @@ class CheckingPrimeNumber(num: Int) : PrimeNumberSet(num), PrimeNumber, Outcome 
 
     var primeNumbers: Boolean = true
     override fun isPrimeNumbers(): Boolean {
-        
+
         return primeNumbers
     }
 }
