@@ -1,8 +1,4 @@
 class MaybePrimeInt(val value: Int) : MaybePrimeNumber {
-<<<<<<< HEAD
-=======
-
->>>>>>> f578be90ef7c1e0063c8a51ff71452d457d448a8
     override fun toString(): String {
         return value.toString()
     }
