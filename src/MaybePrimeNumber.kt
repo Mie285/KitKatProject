@@ -1,3 +1,3 @@
 interface MaybePrimeNumber {
-    fun isPrimeNumber() : Boolean
+    fun isPrimeNumber(): Boolean
 }
