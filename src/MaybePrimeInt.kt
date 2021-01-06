@@ -1,15 +1,14 @@
+import kotlin.math.sqrt
+
 class MaybePrimeInt(val value: Int) : MaybePrimeNumber {
-    override fun toString(): String {
-        return value.toString()
-    }
+    private fun isEvenlyDividedBy(denominator: Int) = value.rem(denominator) == 0
 
     override fun isPrimeNumber(): Boolean {
-        if (value < 2) return false
-        for (number in 2..value / 2) {
-            if (value % number == 0) {
-                return false
-            }
+        // https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+        // https://stackoverflow.com/questions/5811151/why-do-we-check-up-to-the-square-root-of-a-prime-number-to-determine-if-it-is-pr
+        return when {
+            (2..sqrt(value.toDouble()).toInt()).any(::isEvenlyDividedBy) -> false
+            else -> value > 1
         }
-        return true
     }
 }
